@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    color: #333;
+}
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+/* Nagłówek */
+.main-header {
+    background-image: url("/img/Header\ Background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    padding-bottom: 200px;
+}
+/* Nawigacja */
+.nav ul {
+    margin: 0px;
+}
+.nav li {
+    display: inline;
+}
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: black;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .3)
+}
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 2px solid rgb(255, 52, 79);
+}
+.main-nav li {
+    padding: 0 5%;
+}
+/* Nazwa zespołu */
+.blog-name {
+    text-align: center;
+    margin: 10px;
+    font-size: 2em;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-weight: normal;
+}
+.blog-name-large {
+    font-size: 4em;
+    color: black;
+}
+/* Sekcja */
+.content-section {
+    margin: 1em;
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.container-right {
+    text-align: right;
+    font-weight: bold;
+    font-size: 2em;
+    color: rgb(255, 52, 79);
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.section-header {
+    font-family: 'Teko', cursive;
+    font-weight: bold;
+    color: rgb(255, 52, 79);
+    text-align: left;
+    font-size: 2.5em;
+    margin: .2em;
+}
+.about-image {
+    float: left;
+    height: 300px;
+    width: 300px;
+    margin: 15px;
+    border-radius: 50%;
+}
+/* Artykuły */
+.main-article {
+    border-bottom: 1px solid rgb(255, 52, 79);
+    margin-bottom: 30px;
+}
+#article-author {
+    font-family: 'Teko', cursive;
+    font-weight: lighter;
+    color: black;
+    text-align: left;
+    font-size: 1.5em;
+    margin: 30px 0 5px 30px;
+}
+#article-tittle {
+    font-family: 'Teko', cursive;
+    font-weight: bold;
+    color:rgb(255, 52, 79);
+    text-align: left;
+    font-size: 2em;
+    margin: 5px 0 5px 30px;
+}
+#article-content {
+    font-family: 'Raleway', sans-serif;
+    color: #333;
+    font-weight: bold;
+    text-align: left;
+    font-size: 1em;
+    margin: 5px 0 5px 30px;
+}
+.article-data {
+    font-family: 'Teko', cursive;
+    font-weight: lighter;
+    color: black;
+    text-align: right;
+    margin: 0 30px 5px 0;
+}
+.comment {
+    max-width: 50%;
+    margin: 0 30px 5px 0;
+}
+
+#comment-tittle  {
+    font-family: 'Teko', cursive;
+    font-weight: bold;
+    color:rgb(255, 52, 79);
+    text-align: left;
+    font-size: 1.5em;
+    margin: 5px 0 5px 30px;
+}
+#comment-content {
+    font-family: 'Raleway', sans-serif;
+    color: #333;
+    font-weight: bold;
+    text-align: left;
+    font-size: .8em;
+    margin: 5px 0 5px 30px;
+}
+#comment-author {
+    font-family: 'Teko', cursive;
+    font-weight: lighter;
+    font-style: italic;
+    color: black;
+    text-align: left;
+    margin: 5px 0 5px 30px;
+}
+.form {
+	white-space: nowrap;
+    padding: 10px;
+    overflow: hidden;
+}
+.form-element {
+    font-family: 'Teko', cursive;
+    font-weight: bold;
+    color:rgb(255, 52, 79);
+	display: inline;
+	letter-spacing: normal;
+	white-space: normal;
+	text-align: normal;
+    vertical-align: middle;
+    margin: 5px 0 5px 30px;
+}
+.btn {
+    cursor: pointer;
+    margin: 0;
+}
+.article-image {
+	text-align: center;
+	letter-spacing: 35px;
+	line-height: 12px;
+}
+#image {
+    height: 150px;
+    width: 200px;
+    margin: 15px;
+    display: inline;
+	vertical-align: middle;
+}
+/* Kontakt */
+.section {
+    display:inline;
+}
+.contact-section {
+    text-align: left;
+    margin: 5px 0 5px 30px;
+}
+.contact-background {
+    width:fit-content;
+    background-color:rgba(255, 52, 79, 0.774);
+    margin: 2px;
+    padding: 8px;
+    border-radius: 5%;
+    border: 2px solid  #333;
+}
+#contact-text {
+    font-family: 'Teko', cursive;
+    font-size: 1.4em;
+    color:white;
+    margin: 0;
+}
+.form-box {
+    float: left;
+}
+.form-email {
+    clear: left;
+}
+#text {
+    width: 40%;
+    height: 200px;
+    margin: 5px 0 5px 30px;
+    overflow: auto;
+}
+
+/* Stopka */
+.main-footer {
+    background-color:rgb(255, 52, 79);
+    padding: .25em 0;
+}
+.main-footer-container {
+    display:flex;
+    align-items: center;
+}
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: right;
+}
+.footer-nav li {
+    padding: 0 .5em;
+}
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}
