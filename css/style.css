@@ -13,7 +13,7 @@ html, body {
 }
 /* Nagłówek */
 .main-header {
-    background-image: url("/img/HeaderBackground.jpg");
+    background-image: url("/img/HeaderBackground.JPG");
     background-size: cover;
     background-position: center;
     background-blend-mode: multiply;
